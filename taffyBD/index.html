@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="js/taffydb-master/taffy.js""></script>
+    <script src=" js/taffySandBox.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="cards_container" id="cards_container">
+        <div class="card_body" id="1"></div>
+        <div class="card_body" id="2"></div>
+        <div class="card_body" id="3"></div>
+    </div>
+
+    <div class="buttons_container">
+        <button class="button_card" onclick="addCard()">Добавить</button>
+        <button class="button_card" onclick="checkField()">Удалить</button>
+        <button class="button_card" onclick="clearAll()">Очистить</button>
+    </div>
+    <div class="buttons_container database_interact">
+        <button class="button_card" onclick="getSortedList()">Сортировка</button>
+    </div>
+
+    <script src="js/script.js">
+        <script src="https://github.com/typicaljoe/taffydb/raw/master/taffy.js"></script>
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    background: #000;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.cards_container {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}  
+
+.card_body {
+    height: 200px;
+    width: 150px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.card_body:not(:last-of-type) {
+    margin-right: 20px;
+}
+
+.database_interact {
+    margin-top: 10px;
+}
